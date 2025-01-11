@@ -112,6 +112,7 @@ padding-right: 160px;
 margin-top: 32px;
 
 }
+
 /* pillar style */
 .card{
    margin-left: 145px;
@@ -130,5 +131,75 @@ margin-top: 32px;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     padding: 30px;
 }
+/* future style */
+.future{
+    display: flex;
+    margin-top: 32px;
+    gap:24px;
+}
+.visions{
+    margin-left: 140px;
+    padding: 32px;
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: rgba(84, 144, 245, 0.2);
+   width: 410px;
+   height: 325px;
+}
+.modern{
+    margin-right: 130px;
+  
+    padding: 32px;
+    box-sizing: border-box;
+    border-radius: 16px;
     
+    background: rgb(247, 235, 207);
+    height: 325px;
+    width: 410px;
+    
+}
+.green{
+    padding: 32px;
+    box-sizing: border-box;
+    border-radius: 16px;
+    
+    background: rgb(198, 228, 214);
+    width: 410px;
+   height: 325px;
+}
+.green-btn{
+background: rgb(0, 106, 80);
+font-weight: bold;
+font-size: 20px;
+color: white;
+border: none;
+padding: 10px 30px;
+border-radius: 5px;
 
+margin-top: 24px;
+margin-bottom: 117px;
+}
+.modern-btn{
+    font-weight: bold;
+font-size: 20px;
+color: white;
+border: none;
+padding: 10px 30px;
+border-radius: 5px;
+
+margin-top: 24px;
+margin-bottom: 117px;
+background:rgb(255, 194, 57);
+}
+.vision-btn{
+    font-weight: bold;
+font-size: 20px;
+color: white;
+border: none;
+padding: 10px 30px;
+border-radius: 5px;
+
+margin-top: 24px;
+margin-bottom: 117px;
+background: rgb(84, 144, 245);
+}
