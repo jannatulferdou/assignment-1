@@ -86,9 +86,49 @@ padding-left: 59px;
    margin-bottom: 117px;
 
 }
-header section button:hover{
-    background-color:rgb(103, 32, 32));
+/* vision style */
+.vision{
+    color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0%;
+margin-left: 145px;
+margin-top: 80px;
 
+}
+.vision-description{
+    color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+display: flex;
+padding-left: 145px;
+padding-right: 160px;
+margin-top: 32px;
 
+}
+/* pillar style */
+.card{
+   margin-left: 145px;
+    
+}
+.cards{
+    margin-right: 130px;
+}
+.pillars{
+    display: flex;
+    gap: 24px;
+    padding: 32px;
+}
+    
+.pillar{
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    padding: 30px;
+}
     
 
