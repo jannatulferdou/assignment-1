@@ -1,0 +1,94 @@
+
+/* nav style */
+
+nav{
+    display: flex;
+   
+    
+}
+.btn{
+    position: absolute;
+    color: rgb(0, 106, 80);
+    font-family: Fira Sans;
+    font-size: 18px;
+    font-weight: 600;
+    
+    letter-spacing: 0%;
+    margin: 10px 500px;
+    box-sizing: border-box;
+   border: 2px solid rgb(0, 106, 80);
+    border-radius: 5px;
+    padding: 10px 30px;
+    font-optical-sizing: auto;
+    
+    font-family: "fira Sans", serif;
+    
+    
+
+}
+
+nav button:hover{
+    background-color:rgb(151, 160, 95);
+
+}
+.title{
+    padding-left: 145px;
+    padding-right: 530px;
+}
+/* banner style */
+.banner{
+    background-color: #C6E4D6;
+    
+    margin-top: 50px;
+    background-image: url(../assets/hero.png);
+    background-repeat: no-repeat;
+    background-position: right, bottom ;
+    max-width: 1300px;
+    margin: auto;
+    border-radius: 10px;
+   
+
+    
+}
+.banner-title{
+    color: rgba(14, 14, 14, 0.5);
+    font-family: Fira Sans;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding-top: 117px;
+    padding-left: 59px;
+}
+.banner-sub-title{
+    color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 56px;
+font-weight: 700;
+line-height: 67px;
+letter-spacing: 0%;
+text-align: left;
+margin-top: 16px;
+padding-left: 59px;
+
+}
+.banner-btn{
+    background: rgb(0, 106, 80);
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 5px;
+   margin-left: 59px;
+   margin-top: 24px;
+   margin-bottom: 117px;
+
+}
+header section button:hover{
+    background-color:rgb(103, 32, 32));
+
+
+    
+
