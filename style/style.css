@@ -203,3 +203,182 @@ margin-top: 24px;
 margin-bottom: 117px;
 background: rgb(84, 144, 245);
 }
+/* bd style */
+.bangladesh{
+    margin-left: 145px;
+    margin-right: 130px;
+    margin-top: 80px;
+    background-image: url(../assets/quote-bg.png);
+    background-repeat: no-repeat;
+    background-position: left, top 15px ;
+    padding-top: 0px;
+    padding-bottom: 15px;
+    box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.15);
+border-radius: 16px;
+
+
+}
+.bd{
+padding: 20px;
+}
+.bd-title{
+    padding: 20px; 
+}
+.bd-sub-title{
+    padding: 20px; 
+}
+.recent-news{
+    padding-left: 145px;
+    padding-right: 130px;
+}
+.recent-news-text p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #0E0E0EB2;
+    margin-top: 24px;
+    margin-bottom: 32px;
+}
+/* satelite style */
+
+.satelite{
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    border-radius: 24px;
+background: #FFF;
+
+}
+
+.satelite-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   padding: 48px 0px; 
+   gap: 32px;
+
+}
+.satelite-img{
+    border-radius: 10px;
+
+}
+.satelite-img img{
+    border-radius: 24px;
+
+}
+
+.satelite-title h5{
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+.satelite-title p{
+    line-height: 24px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #0E0E0EB2;
+    
+}
+.satelite-title button{
+    border-radius: 5px;
+background: #006A50;
+padding: 12px 24px;
+color: white;
+font-size: 18px;
+font-weight: 600;
+border: none;
+
+cursor: pointer;
+}
+.satelite-title button:hover{
+    background: transparent;
+    border: 1px solid #5ac7ac;
+    color: #529f8c;
+}
+/* Donate Today */
+.donate{
+   align-items: center;
+   justify-content: space-between;
+}
+.donation-title{
+
+color: #181818;
+
+width: 1280px;
+height: 48px;
+
+display: flex;
+padding-left: 650px;
+
+font-family: Fira Sans;
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: center;
+margin-top: 80px;
+
+}
+.donation-description{
+  
+    width: 1104px;
+    height: 48px;
+ 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   
+    flex: none;
+  
+    margin: 0px 24px;
+    color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: center;
+padding-left: 200px;
+}
+
+.donation-list{
+   list-style: none;
+   display: flex;
+   justify-content: space-between;
+   justify-content: space-evenly;
+}
+.donation-btn{
+    
+
+width: 200px;
+height: 90px;
+
+display: flex;
+
+justify-content: flex-start;
+align-items: flex-start;
+gap: 24;
+padding-left: 45px;
+padding-top: 30px;
+flex: none;
+box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.15);
+border-radius: 16px;
+
+background: rgb(255, 255, 255);
+color: rgba(14, 14, 14, 0.8);
+font-family: Fira Sans;
+font-size: 25px;
+font-weight: 700;
+
+letter-spacing: 0%;
+
+}
+.donation-btn:hover{
+    background: transparent;
+    border: 1px solid #5ac7ac;
+    color: #529f8c;
+    cursor: pointer;
+}
