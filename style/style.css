@@ -3,6 +3,9 @@
 
 nav{
     display: flex;
+    justify-content: space-between;
+   
+  justify-content: space-evenly;
    
     
 }
@@ -14,11 +17,11 @@ nav{
     font-weight: 600;
     
     letter-spacing: 0%;
-    margin: 10px 500px;
+    
     box-sizing: border-box;
    border: 2px solid rgb(0, 106, 80);
     border-radius: 5px;
-    padding: 10px 30px;
+   padding: 10px 40px;
     font-optical-sizing: auto;
     
     font-family: "fira Sans", serif;
@@ -29,11 +32,14 @@ nav{
 
 nav button:hover{
     background-color:rgb(151, 160, 95);
+    cursor: pointer;
 
 }
 .title{
-    padding-left: 145px;
-    padding-right: 530px;
+    padding-left: 0px;
+    padding-right: 650px;
+    
+    
 }
 /* banner style */
 .banner{
@@ -85,6 +91,12 @@ padding-left: 59px;
    margin-top: 24px;
    margin-bottom: 117px;
 
+}
+.banner-btn:hover{
+    background: transparent;
+    border: 1px solid #5ac7ac;
+    color: #529f8c;
+    cursor: pointer;
 }
 /* vision style */
 .vision{
@@ -179,6 +191,13 @@ border-radius: 5px;
 margin-top: 24px;
 margin-bottom: 117px;
 }
+.green-btn:hover{
+    background: transparent;
+    border: 1px solid #5ac7ac;
+    color: #529f8c;
+    cursor: pointer;
+}
+
 .modern-btn{
     font-weight: bold;
 font-size: 20px;
@@ -190,6 +209,12 @@ border-radius: 5px;
 margin-top: 24px;
 margin-bottom: 117px;
 background:rgb(255, 194, 57);
+}
+.modern-btn:hover{
+    background: transparent;
+    border: 1px solid #5ac7ac;
+    color: #529f8c;
+    cursor: pointer;
 }
 .vision-btn{
     font-weight: bold;
@@ -203,6 +228,13 @@ margin-top: 24px;
 margin-bottom: 117px;
 background: rgb(84, 144, 245);
 }
+.vision-btn:hover{
+    background: transparent;
+    border: 1px solid #5ac7ac;
+    color: #529f8c;
+    cursor: pointer;
+}
+
 /* bd style */
 .bangladesh{
     margin-left: 145px;
@@ -300,7 +332,10 @@ cursor: pointer;
 /* Donate Today */
 .donate{
    align-items: center;
-   justify-content: space-between;
+  
+flex-direction: column;
+
+
 }
 .donation-title{
 
@@ -348,6 +383,8 @@ padding-left: 200px;
    display: flex;
    justify-content: space-between;
    justify-content: space-evenly;
+   margin-left: 50px;
+   margin-right: 50px;
 }
 .donation-btn{
     
@@ -359,7 +396,7 @@ display: flex;
 
 justify-content: flex-start;
 align-items: flex-start;
-gap: 24;
+
 padding-left: 45px;
 padding-top: 30px;
 flex: none;
@@ -382,6 +419,251 @@ letter-spacing: 0%;
     color: #529f8c;
     cursor: pointer;
 }
-.dotnate-btn{
-    
+.donate-btn{
+    display: flex;
+
+justify-content: flex-start;
+align-items: flex-start;
+
+
+flex: none;
+box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.15);
+border-radius: 16px;
+padding-left: 45px;
+padding-top: 30px;
+background: rgb(198, 228, 214);s
+
+background: rgb(255, 255, 255);
+color: rgba(14, 14, 14, 0.8);
+font-family: Fira Sans;
+font-size: 25px;
+font-weight: 700;
+
+width: 200px;
+height: 90px;
+
+}
+.donate-btn:hover{
+    background: transparent;
+    border: 1px solid #5ac7ac;
+    color: #529f8c;
+    cursor: pointer;
+}
+.donation-amount{
+    margin-left: 280px;
+    margin-top: 32px;
+   
+
+width: 1032px;
+height: 50px;
+padding-left: 450px;
+padding-top: 10px;
+display: flex;
+flex-direction: column;
+gap: 24;
+
+box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.15);
+background: rgb(255, 255, 255);
+border-radius: 10px;
+color: rgba(14, 14, 14, 0.3);
+font-family: Fira Sans;
+font-size: 20px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+
+}
+.donation-amount:hover{
+    background: transparent;
+    border: 1px solid #5ac7ac;
+    color: #529f8c;
+    cursor: pointer;
+}
+
+/* footer style */
+.footer-section{
+    box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.15);
+border-radius: 16px;
+background: rgb(198, 228, 214);
+width: 1280px;
+height: 550px;
+margin-top: 80px;
+margin-left: 150px;
+margin-right: 130px;
+}
+.Subscribe-container{
+  
+position: static;
+width: 750px;
+
+
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+padding-bottom: 200px;
+padding-left: 40px;
+
+
+
+
+
+}
+.Subscribe{
+    margin-top: 160px;
+    margin-left: 489px;
+    margin-bottom: 16px;
+width: 622px;
+height: 48px;
+color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+
+letter-spacing: 0%;
+text-align: center;
+}
+
+.Subscribe-description{
+   
+width: 622px;
+height: 48px;
+display: flex;
+align-items: center;
+color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: center;
+margin-left: 489px;
+}
+.Subscribe-list{
+    list-style: none;
+    display: flex;
+    margin-left: 390px;
+    margin-top: 24px;
+}
+.email-btn{
+
+width: 600px;
+height: 55px;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+padding: 18px 40px 18px 40px;
+
+border-radius: 8px 0px 0px 8px;
+background: rgb(255, 255, 255);
+color: rgba(14, 14, 14, 0.3);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: left;
+border: none;
+}
+.email-btn:hover{
+    background: transparent;
+    border: 1px solid #6d77e1;
+    color: #3d1b77;
+  
+    cursor: pointer;
+}
+.Subscribe-btn{
+
+width: 150px;
+height: 55px;
+flex-direction: row;
+justify-content: center;
+gap: 48;
+padding: 17px 34px 17px 34px;
+
+border-radius: 0px 8px 8px 0px;
+border: none;
+background: rgb(0, 106, 80);
+}
+.Subscribe-btn:hover{
+    background: transparent;
+    border: 1px solid #6d77e1;
+    color: #3d1b77;
+    cursor: pointer;
+}
+.spam{
+width: 622px;
+height: 19px;
+align-items: center;
+gap: 24;
+color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: center;
+margin-left: 489px;
+margin-top: 25px;
+}
+/* Bangladesh 2.0 */
+.bd-2{
+  
+width: 222px;
+height: 38px;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+
+color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 32px;
+font-weight: 700;
+line-height: 38px;
+letter-spacing: 0%;
+margin-top: 130px;
+margin-left: 230px;
+
+border: 1px solid rgba(14, 14, 14, 0.1);
+   width: 1122px;
+   border-top: none;
+   border-left: none;
+   border-right: none;
+   height: 70px;
+
+}
+.bd-2-img{
+  
+position: static;
+width: 130px;
+height: 24px;
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: flex-start;
+gap: 23;
+margin-left: 710px;
+margin-top: 32px;margin-bottom: 50px;
+
+
+ 
+}
+.img-1{
+  margin-left: 23px;
+}
+.bd-2-container{
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    height: 325px;
+    width: 1560px;
+background: rgb(255, 255, 255);
+margin-top: 80px;
+padding-bottom: 200px;
 }
