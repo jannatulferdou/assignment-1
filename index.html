@@ -6,6 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bangladesh 2.0</title>
 
+    <!-- daisy -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <!-- font -->
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -16,10 +22,22 @@
 
 <body class="fira-sans">
     <header>
-        <nav>
-            <span style="margin-right: 100px;"><h1 class="title">Bangladesh 2.0</h1></span>
-          <span style="margin-left: 200px;"><a href=""><button class="btn">Sign In</button></a></span>
-        </nav>
+        <div class="navbar bg-base-100 mb-10">
+            <div class="navbar-start ml-30">
+              <div class="dropdown">
+                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /> </svg>
+                </div>
+              
+              </div>
+              <a class="text-3xl font-bold">Bangladesh 2.0</a>
+            </div>
+            
+            <div class="navbar-end">
+              <a class="btn mr-30">Sign In</a>
+            </div>
+
+          </div>
         <section class="banner">
             <h3 class="banner-title">Bangladesh 2.0</h3>
             <h1 class="banner-sub-title">Idea , innovation ,<br>
@@ -29,36 +47,36 @@
         </section>
     </header>
     <main>
-        <section>
+        <section class="">
             <h1 class="vision">Pillars of "Bangladesh 2.0"</h1>
 
-            <div class="pillars">
-                <div class="card pillar">
+            <div class="pillars ml-25 mr-25">
+                <div class=" pillar rounded-lg">
                     <img src="assets/card-icon.png" alt="">
-                    <h3 class="pillar-title">Innovation</h3>
+                    <h3 class="text-xl font-bold mb-3 mt-4">Innovation</h3>
                     <p class="pillar-description">Embrace the Fourth Industrial Revolution (4IR), Advance the
                         Information and Communications Technology (ICT) industry, Support startups, and Promote smart
                         commerce.
                     </p>
                 </div>
-                <div class="pillar">
+                <div class="pillar rounded-lg">
                     <img src="assets/card-icon.png" alt="">
-                    <h3 class="pillar-title">Sustainability</h3>
+                    <h3 class="text-xl font-bold mb-3 mt-4">Sustainability</h3>
                     <p class="pillar-description">Bangladesh 2.0 should be environmentally friendly, and industries
                         should be concerned with maintaining the Sustainable Development Goals (SDGs) and a green
                         ecosystemf
                     </p>
                 </div>
-                <div class="pillar">
+                <div class="pillar rounded-lg">
                     <img src="assets/card-icon.png" alt="">
-                    <h3 class="pillar-title">Infrastructure</h3>
+                    <h3 class="text-xl font-bold mb-3 mt-4">Infrastructure</h3>
                     <p class="pillar-description">The Bangladesh 2.0 agenda envisions a future where economic growth is
                         not achieved at the expense of the environment but is instead driven by sustainable practices.
                     </p>
                 </div>
-                <div class="pillar cards">
+                <div class="pillar rounded-lg">
                     <img src="assets/card-icon.png" alt="">
-                    <h3 class="pillar-title">Empowerment</h3>
+                    <h3 class="text-xl font-bold mb-3 mt-4">Empowerment</h3>
                     <p class="pillar-description">Empowerment is a core pillar in this vision as it seeks to enable
                         individuals and communities to unlock their full potential and actively contribute to the
                         nation's progress.
@@ -81,7 +99,7 @@
             <div class="future">
                 <div class="visions">
                     <img src="assets/card-icon.png" alt="">
-                    <h3 class="future-title">Digital Transformation</h3>
+                    <h3 class="future-title text-xl font-bold mb-3 mt-4">Digital Transformation</h3>
                     <p class="future-description">Creating a nationwide digital ecosystem to enhance connectivity and
                         access to services for all citizens.
                     </p>
@@ -89,15 +107,15 @@
                 </div>
                 <div class="green">
                     <img src="assets/card-icon.png" alt="">
-                    <h3 class="green-title">Green Energy</h3>
-                    <p class="green-description">Investments in solar and wind energy to ensure a sustainable and
+                    <h3 class="green-title text-xl font-bold mb-3 mt-4">Green Energy</h3>
+                    <p class="green-description mb-7">Investments in solar and wind energy to ensure a sustainable and
                         eco-friendly future.
                     </p>
                     <a href=""><button class="green-btn">Learn More</button></a>
                 </div>
                 <div class="modern">
                     <img class="image" src="assets/card-icon.png" alt="">
-                    <h3 class="modern-title">Modern Infrastructure</h3>
+                    <h3 class="modern-title text-xl font-bold mb-3 mt-4">Modern Infrastructure</h3>
                     <p class="modern-description">Building state-of-the-art infrastructure to support economic growth
                         and
                         global competitiveness.
@@ -109,22 +127,22 @@
 
         </section>
         <section class="bangladesh">
-            <p class="bd">"We witnessed a historic political changeover just 100 days ago. Future Bangladesh will be
+            <p class="bd p-10">"We witnessed a historic political changeover just 100 days ago. Future Bangladesh will be
                 based on
                 justice, human rights, and freedom of speech," he said while speaking at an international conference at
                 a hotel in Dhaka on Saturday. The Center for Governance Studies, a private think-tank, hosted the
                 conference titled 'Bay of Bengal Conversation - 2024.'
 
             </p>
-            <br><strong class="bd-title">Dr. Muhammad Yunus</strong>
+            <br><strong class="bd-title ml-5 text-xl text-gray-600">Dr. Muhammad Yunus</strong>
             <br>
-            <div class="bd-sub-title">Chief Adviser of the People's Republic of Bangladesh</div>
+            <div class="bd-sub-title ml-5">Chief Adviser of the People's Republic of Bangladesh</div>
         </section>
         <!-- recent-news -->
-        <section class="recent-news">
+        <section class="recent-news mt-30">
             <div class="recent-news-text">
-                <h1>Recent News</h1>
-                <p>
+                <h1 class="text-4xl font-bold">Recent News</h1>
+                <p class="text-gray-600">
                     Bangladesh 2.0 aims to redefine the nation’s trajectory by embracing
                     cutting-edge technology, promoting inclusive growth, and ensuring
                     sustainability. With initiatives in <br />
@@ -141,9 +159,9 @@
                         <div class="satelite-title">
                             <h5>Bangladesh Launches New Satellite</h5>
                             <img src="assets/al-jazeera.png" alt="" />
-                            <p>Date: 05/01/2025 <span style="margin-left: 10px">Time: 10.25 PM</span></p>
+                            <p class="mt-4">Date: 05/01/2025 <span style="margin-left: 10px">Time: 10.25 PM</span></p>
 
-                            <p>
+                            <p class="mb-10 mt-5">
                                 Not until the creation and maintenance of decent conditions of
                                 life for all people are recognized and <br> accepted as a common
                                 obligation of all people and all countries—not until then shall
@@ -162,9 +180,9 @@
                         <div class="satelite-title">
                             <h5>Bangladesh Launches New Satellite</h5>
                             <img src="assets/al-jazeera.png" alt="">
-                            <p>Date: 05/01/2025 <span style="margin-left: 10px">Time: 10.25 PM</span></p>
+                            <p class="mt-4">Date: 05/01/2025 <span style="margin-left: 10px">Time: 10.25 PM</span></p>
 
-                            <p>
+                            <p class="mb-10 mt-5">
                                 Not until the creation and maintenance of decent conditions of
                                 life for all people are recognized and <br> accepted as a common
                                 obligation of all people and all countries—not until then shall
